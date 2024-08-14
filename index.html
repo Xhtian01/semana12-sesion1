@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To do List App</title>
+  </head>
+  <body>
+    <h1>To do List App</h1>
+    <div class="container">
+      <div class="tareas">
+        <h2>Registrar Tareas</h2>
+        <!--<form class="formulario" action="">-->
+        <div class="formulario">
+          <input id="nombre-tarea" type="text" />
+          <input id="fecha-tarea" type="date" />
+          <input id="autor-tarea" type="text" />
+          <button id="agregar-tarea">Agregar</button>
+        </div>
+        <!--</form>-->
+      </div>
+      <div class="listado">
+        <h2>Listado de Tareas</h2>
+        <ul id="listado-tareas"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
