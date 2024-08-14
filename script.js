@@ -33,6 +33,8 @@ function agregarTarea() {
     autor.value = '';
 
     actualizarMensaje();
+  } else {
+    alert('Debe completar todos los campos');
   }
 }
 
